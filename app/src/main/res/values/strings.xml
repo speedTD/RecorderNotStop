@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ghi Âm 365</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Duy">Duy Dep Trai </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Cấu Hình</string>
+
+    <string name="pref_title_social_recommendations">Ghi âm Chất Lượng Cao</string>
+    <string name="pref_description_social_recommendations">định dạng lossless
+    </string>
+
+    <string name="pref_title_display_name">Tên File Mặc Định</string>
+    <string name="pref_default_display_name">28FreeCode</string>
+    <string name="pref_about_title">Phiên Bản Hiện Tại</string>
+    <string name="pref_about_desc">1.0.0</string>
+    <string name="toast_file_dcelete">Deleted file</string>
+    <string name="dialog_file_share">Chia Sẻ</string>
+    <string name="dialog_file_rename">Đổi tên File</string>
+    <string name="dialog_file_delete">Xóa</string>
+    <string name="dialog_title_options">Tùy Chọn</string>
+    <string name="dialog_action_cancel">Hủy</string>
+
+
+</resources>

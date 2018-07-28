@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/id_dialog_mini_editText"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên Mới"
+        android:textColor="#ffffff"
+        android:textColorHint="@color/colorPrimary" />
+    <TextView
+        android:id="@+id/id_txt_namemp3"
+        android:textColor="#ff00aa"
+        android:text=".mp3"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

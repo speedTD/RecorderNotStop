@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/setting"
+        android:title="Cài đặt"
+        android:id="@+id/id_menu_caidat"/>
+    <item
+        android:title="Thông Tin"
+        android:id="@+id/id_menu_thongtin"/>
+
+</menu>

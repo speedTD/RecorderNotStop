@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#edfd58"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_dialog_File_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="File Name"
+            android:textColor="#f10774"
+            android:textSize="18sp" />
+
+        <SeekBar
+
+            android:id="@+id/id_dialog_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="38dp"
+            android:max="100"
+            android:progress="0"
+             />
+
+        <TextView
+            android:id="@+id/id_dialog_TimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/id_dialog_seekbar"
+            android:gravity="center"
+            android:text="00:00"
+            android:textColor="#f10774"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_dialog_TimeEnd"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="99:99"
+            android:textColor="#f10774"
+            android:textSize="18sp" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/id_dialog_btn_playstop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/id_dialog_TimeStart"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:background="#1321dc"
+            android:cropToPadding="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/play_icon"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
